@@ -7,7 +7,7 @@ const knexConfig = {
     connection: {
       filename: './data/project_tracker.sqlite3',
     },
-    useNullAsDefault: true, // needed for sqlite
+    useNullAsDefault: true,
   };
   const db = knex(knexConfig);
   
